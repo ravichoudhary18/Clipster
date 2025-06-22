@@ -1,0 +1,74 @@
+# ------------------------
+# Python
+# ------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+pip-wheel-metadata/
+*.log
+
+# SQLite or JSON DB (optional)
+*.db
+*.sqlite3
+*.json
+
+# Test outputs
+htmlcov/
+.tox/
+.nox/
+coverage.*
+.cache/
+pytest_cache/
+
+# Type checker cache
+.mypy_cache/
+.pyright/
+pylint-report.txt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ------------------------
+# Docker
+# ------------------------
+*.pid
+*.log
+*.bak
+docker-compose.override.yml
+docker.env
+.env
+
+# ------------------------
+# IDEs / Editors
+# ------------------------
+
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VSCode
+.vscode/
+
+# Others
+*.swp
+*.swo
+
+# ------------------------
+# OS-specific files
+# ------------------------
+.DS_Store
+Thumbs.db
